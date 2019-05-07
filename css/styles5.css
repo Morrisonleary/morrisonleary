@@ -1,0 +1,300 @@
+
+body {
+  margin: auto;
+}
+
+.btn {
+    font-family: 'Germania One', cursive;
+}
+
+
+p {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5rem;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-family: 'Germania One', cursive;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+.nav-item {
+  font-family: 'Germania One', cursive;
+  font-size: 1.5rem;
+  padding: 0 18px;
+}
+
+.fixed-top.black {
+  background: #000;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-dark .navbar-toggler {
+  background: black;
+  color: #fff;
+}
+
+/* Header */
+#header-button {
+  font-family: 'Germania One', cursive;
+  text-shadow: none;
+}
+
+#showcase {
+  background: url("../images/javaScriptPhoto.jpg") 52%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 80vh;
+}
+
+#header-text {
+font-family: 'Germania One', cursive;
+color: white;
+text-shadow: 3px 0 #000;
+padding-top: 30%;
+}
+
+
+.hero {
+  font-size: 4rem;
+}
+
+/* Simon Says */
+ #simon-direct {
+   margin-top: 5%;
+ }
+
+.simon-header {
+  font-family: 'Germania One', cursive;
+  margin-bottom: 5%;
+  text-align: center;
+
+}
+
+.simon-says {
+    background-color: #f7f7f7;
+  padding: 7% 15%;
+}
+
+#red {
+  margin-bottom: 5%;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  background-color: red;
+}
+
+#green {
+  margin-bottom: 5%;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  background-color: green;
+}
+
+#blue {
+  margin-bottom: 5%;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  background-color: blue;
+}
+
+#yellow {
+  margin-bottom: 5%;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  background-color: yellow;
+}
+
+/* Drums */
+
+#drums-direct {
+  margin-top: 5%;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #000;
+  font-size: 4rem;
+  font-family: 'Germania One', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #000;
+  text-shadow: 3px 0 #ffffff;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+.drums-header {
+  font-family: 'Germania One', cursive;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.drums-java {
+  padding: 7% 15%;
+}
+
+
+.w {
+  background-image: url(../images/tom1.png);
+  text-decoration: none !important;
+
+}
+
+.a {
+  background-image: url(../images/tom2.png);
+  text-decoration: none !important;
+}
+
+.s {
+  background-image: url(../images/tom3.png);
+  text-decoration: none !important;
+}
+
+.d {
+  background-image: url(../images/tom4.png);
+  text-decoration: none !important;
+}
+
+.j {
+  background-image: url(../images/snare.png);
+  text-decoration: none !important;
+}
+
+.k {
+  background-image: url(../images/crash.png);
+  text-decoration: none !important;
+}
+
+.l {
+  background-image: url(../images/kick.png);
+  text-decoration: none !important;
+}
+
+
+/* CTA */
+
+.cta-header {
+    font-family: 'Germania One', cursive;
+}
+
+.cta-header2 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+#cta {
+  background: #f7f7f7;
+  padding: 7% 15%;
+}
+
+/* Footer */
+.copyright {
+  color: #fff;
+    font-family: 'Germania One', cursive;
+    font-size: 2rem;
+  margin-top: 10%;
+}
+
+.footer-link {
+  color: #fff;
+  padding: 5% 5%;
+}
+
+#footer {
+  background: #000;
+  padding: 5% 15%;
+}
+
+@media screen and (min-width: 2000px) {
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media only screen
+  and (min-device-width: 1024px)
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #header-text {
+      padding-top: 50%;
+    }
+
+  }
+
+@media screen and (max-width: 786px) {
+  .about-us {
+    text-align: center;
+  }
+
+  #about-area {
+    padding: 7% 15%;
+  }
+
+  .fixed-top {
+    background: #000;
+  }
+
+  #header-text {
+    padding-top: 50%;
+  }
+
+  .navbar-nav .nav-link {
+    text-align: center;
+  }
+
+  #testimonials {
+    padding: 7% 0;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .copyright {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .footer-link {
+    font-size: .5em;
+    text-align: center;
+  }
+
+  #header-text {
+    padding-top: 50%;
+  }
+
+  #cta-buttons {
+    margin-bottom: 5%;
+  }
+}
