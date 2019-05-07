@@ -215,6 +215,10 @@ padding-top: 30%;
     background: #000;
   }
 
+  #header-text {
+    padding-top: 40%;
+  }
+  
   .navbar-nav .nav-link {
     text-align: center;
   }
@@ -240,7 +244,11 @@ padding-top: 30%;
   }
 
   #header-text {
-    padding-top: 70%;
+    padding-top: 55%;
+  }
+
+  .hero {
+    font-size: 3rem;
   }
 
 

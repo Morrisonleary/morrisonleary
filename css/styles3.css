@@ -251,9 +251,9 @@ padding-top: 30%;
   }
 
   #header-text {
-    padding-top: 50%;
+    padding-top: 40%;
   }
-
+  
   .navbar-nav .nav-link {
     text-align: center;
   }
@@ -276,6 +276,10 @@ padding-top: 30%;
 
   #header-text {
     padding-top: 55%;
+  }
+
+  .hero {
+    font-size: 3rem;
   }
 
   #cta-buttons {
