@@ -71,6 +71,10 @@ padding-top: 30%;
 }
 
 /* Photo Gallery */
+.gallery-section {
+  padding: 7% 15%;
+}
+
 .photo-header {
   font-family: 'Germania One', cursive;
 }
