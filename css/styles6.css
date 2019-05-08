@@ -103,19 +103,43 @@ padding-top: 30%;
   opacity: 0.8;
 }
 
-.red {
+#red {
+  margin-bottom: 5%;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
   background-color: red;
 }
 
-.green {
+#green {
+  margin-bottom: 5%;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
   background-color: green;
 }
 
-.blue {
+#blue {
+  margin-bottom: 5%;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
   background-color: blue;
 }
 
-.yellow {
+#yellow {
+  margin-bottom: 5%;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
   background-color: yellow;
 }
 
