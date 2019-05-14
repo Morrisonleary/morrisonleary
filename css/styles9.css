@@ -61,7 +61,7 @@ p {
   font-family: 'Germania One', cursive;
   color: white;
   text-shadow: 3px 0 #000;
-  padding-top: 30%;
+  padding-top: 40%;
 }
 
 .hero {
@@ -227,6 +227,27 @@ p {
 #footer {
   background: #000;
   padding: 5% 15%;
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #header-text {
+      margin-top: -10%;
+    }
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+    #header-text {
+      margin-top: -20%;
+    }
 }
 
 

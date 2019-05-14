@@ -54,14 +54,14 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 800px;
+  min-height: 950px;
 }
 
 #header-text {
   font-family: 'Germania One', cursive;
   color: white;
   text-shadow: 3px 0 #000;
-  padding-top: 30%;
+  padding-top: 40%;
 }
 
 .hero {
@@ -181,30 +181,24 @@ p {
 }
 
 /* ----------- Non-Retina Screens ----------- */
-@media screen
-  and (min-device-width: 1200px)
-  and (max-device-width: 1600px)
-  and (-webkit-min-device-pixel-ratio: 1) {
-    #header-text {
-      margin-top: -10%;
-    }
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  #header-text {
+    margin-top: -10%;
+  }
 }
 
 /* ----------- Retina Screens ----------- */
-@media screen
-  and (min-device-width: 1200px)
-  and (max-device-width: 1600px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) {
-    #header-text {
-      margin-top: -20%;
-    }
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  #header-text {
+    margin-top: -20%;
+  }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
   #home-section {
     min-height: 1050px;
   }
+
   #header-text {
     padding-top: 50%;
   }
@@ -226,6 +220,7 @@ p {
   #home-section {
     min-height: 900px;
   }
+
   #header-text {
     padding-top: 50%;
   }
@@ -253,6 +248,7 @@ p {
   #home-section {
     min-height: 650px;
   }
+
   #header-text {
     padding-top: 60%;
   }
