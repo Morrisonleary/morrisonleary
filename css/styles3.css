@@ -225,7 +225,9 @@ padding-top: 30%;
 }
 
 @media screen and (max-width: 1200px) {
-
+  #header-text {
+    padding-top: 10%;
+  }
 }
 
 @media only screen
@@ -253,7 +255,7 @@ padding-top: 30%;
   #header-text {
     padding-top: 40%;
   }
-  
+
   .navbar-nav .nav-link {
     text-align: center;
   }

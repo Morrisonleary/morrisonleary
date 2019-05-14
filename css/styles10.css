@@ -108,7 +108,9 @@ hr.main-hr {
 
 
 @media screen and (max-width: 1200px) {
-
+  #header-text {
+    padding-top: 10%;
+  }
 }
 
 @media only screen

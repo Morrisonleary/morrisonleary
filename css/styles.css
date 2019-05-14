@@ -62,7 +62,7 @@ p {
 font-family: 'Germania One', cursive;
 color: white;
 text-shadow: 3px 0 #000;
-padding-top: 30%;
+padding-top: 20%;
 }
 
 
@@ -192,9 +192,10 @@ padding-top: 30%;
 
 }
 
-
 @media screen and (max-width: 1200px) {
-
+  #header-text {
+    padding-top: 10%;
+  }
 }
 
 @media only screen
