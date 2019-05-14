@@ -3,7 +3,7 @@ body {
 }
 
 .btn {
-    font-family: 'Germania One', cursive;
+  font-family: 'Germania One', cursive;
 }
 
 p {
@@ -59,12 +59,11 @@ p {
 }
 
 #header-text {
-font-family: 'Germania One', cursive;
-color: white;
-text-shadow: 3px 0 #000;
-padding-top: 30%;
+  font-family: 'Germania One', cursive;
+  color: white;
+  text-shadow: 3px 0 #000;
+  padding-top: 30%;
 }
-
 
 .hero {
   font-size: 4rem;
@@ -90,8 +89,8 @@ padding-top: 30%;
 }
 
 .feature-titles {
-    font-family: 'Germania One', cursive;
-    font-size: 2rem;
+  font-family: 'Germania One', cursive;
+  font-size: 2rem;
 }
 
 .img-fluid {
@@ -100,9 +99,7 @@ padding-top: 30%;
   background-color: #000;
 }
 
-
 /* Contact Form */
-
 .bottom {
   margin-bottom: 10px;
   border-top-left-radius: 0;
@@ -115,9 +112,11 @@ padding-top: 30%;
   padding: 15px;
   margin: auto;
 }
+
 .form-signin .checkbox {
   font-weight: 400;
 }
+
 .form-signin .form-control {
   position: relative;
   box-sizing: border-box;
@@ -126,6 +125,7 @@ padding-top: 30%;
   padding: 10px;
   font-size: 16px;
 }
+
 .form-signin .form-control:focus {
   z-index: 2;
 }
@@ -171,9 +171,8 @@ padding-top: 30%;
   right: 100%;
 }
 
-
 .testimonial-title {
-    font-family: 'Germania One', cursive;
+  font-family: 'Germania One', cursive;
 }
 
 .testimonial-secondary-title {
@@ -200,9 +199,8 @@ padding-top: 30%;
 }
 
 /* CTA */
-
 .cta-header {
-    font-family: 'Germania One', cursive;
+  font-family: 'Germania One', cursive;
 }
 
 .cta-header2 {
@@ -217,8 +215,8 @@ padding-top: 30%;
 /* Footer */
 .copyright {
   color: #fff;
-    font-family: 'Germania One', cursive;
-    font-size: 2rem;
+  font-family: 'Germania One', cursive;
+  font-size: 2rem;
   margin-top: 10%;
 }
 
@@ -232,24 +230,19 @@ padding-top: 30%;
   padding: 5% 15%;
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 2000px) {}
 
+@media screen and (min-width: 1200px) {
+  .hero {
+    margin-top: -30%;
+  }
 }
 
-@media screen and (max-width: 1200px) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
   #header-text {
-    padding-top: 10%;
+    padding-top: 50%;
   }
 }
-
-@media only screen
-  and (min-device-width: 1024px)
-  and (max-device-width: 1366px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    #header-text {
-      padding-top: 50%;
-    }
-  }
 
 @media screen and (max-width: 786px) {
   .about-us {

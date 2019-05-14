@@ -1,12 +1,10 @@
-
 body {
   margin: auto;
 }
 
 .btn {
-    font-family: 'Germania One', cursive;
+  font-family: 'Germania One', cursive;
 }
-
 
 p {
   font-family: 'Crimson Text', serif;
@@ -61,31 +59,29 @@ p {
 }
 
 #header-text {
-font-family: 'Germania One', cursive;
-color: white;
-text-shadow: 3px 0 #000;
-padding-top: 30%;
+  font-family: 'Germania One', cursive;
+  color: white;
+  text-shadow: 3px 0 #000;
+  padding-top: 30%;
 }
-
 
 .hero {
   font-size: 4rem;
 }
 
 /* Simon Says */
- #simon-direct {
-   margin-top: 5%;
- }
+#simon-direct {
+  margin-top: 5%;
+}
 
 .simon-header {
   font-family: 'Germania One', cursive;
   margin-bottom: 5%;
   text-align: center;
-
 }
 
 .simon-says {
-    background-color: #f7f7f7;
+  background-color: #f7f7f7;
   padding: 7% 15%;
 }
 
@@ -130,7 +126,6 @@ padding-top: 30%;
 }
 
 /* Drums */
-
 #drums-direct {
   margin-top: 5%;
 }
@@ -163,11 +158,9 @@ padding-top: 30%;
   padding: 7% 15%;
 }
 
-
 .w {
   background-image: url(../images/tom1.png);
   text-decoration: none !important;
-
 }
 
 .a {
@@ -200,11 +193,9 @@ padding-top: 30%;
   text-decoration: none !important;
 }
 
-
 /* CTA */
-
 .cta-header {
-    font-family: 'Germania One', cursive;
+  font-family: 'Germania One', cursive;
 }
 
 .cta-header2 {
@@ -219,8 +210,8 @@ padding-top: 30%;
 /* Footer */
 .copyright {
   color: #fff;
-    font-family: 'Germania One', cursive;
-    font-size: 2rem;
+  font-family: 'Germania One', cursive;
+  font-size: 2rem;
   margin-top: 10%;
 }
 
@@ -234,26 +225,19 @@ padding-top: 30%;
   padding: 5% 15%;
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 2000px) {}
 
+@media screen and (min-width: 1200px) {
+  .hero {
+    margin-top: -30%;
+  }
 }
 
-
-@media screen and (max-width: 1200px) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
   #header-text {
-    padding-top: 10%;
+    padding-top: 50%;
   }
 }
-
-@media only screen
-  and (min-device-width: 1024px)
-  and (max-device-width: 1366px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    #header-text {
-      padding-top: 50%;
-    }
-
-  }
 
 @media screen and (max-width: 786px) {
   .about-us {
