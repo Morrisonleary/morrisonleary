@@ -61,7 +61,7 @@ p {
   font-family: 'Germania One', cursive;
   color: white;
   text-shadow: 3px 0 #000;
-  padding-top: 40%;
+  padding-top: 30%;
 }
 
 .hero {
@@ -272,7 +272,7 @@ p {
     font-size: .5em;
     text-align: center;
   }
-  
+
   #home-section {
     min-height: 650px;
   }
